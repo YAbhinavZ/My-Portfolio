@@ -89,7 +89,7 @@ export const education = [
     school: "Kiet Group of Institutions, Ghaziabad",
     date: "Sept 2023 - July 2027",
     grade: "8.54 CGPA",
-    desc: "I am pursuing Bachelor of Technology (Computer Science) from KIET College, Ghaziabad. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at BSA College allowed me to work on projects that applied theoretical concepts to real-world problems.",
+    desc: "I am pursuing Bachelor of Technology (Computer Science) from KIET College, Ghaziabad. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. ",
     degree: "Bachelor of Technology (Computer Science)",
   },
   {
@@ -104,10 +104,10 @@ export const education = [
   {
     id: 3,
     img: SBN,
-    school: "SBN Public School Govardhan, Mathura",
+    school: "SBN Public School Nandgram, Ghaziabad",
     date: "Apr 2020 - March 2021",
     grade: "77.5%",
-    desc: "I completed my class 10 education from SBN Public School, Govardhan, under the CBSE board, where I studied Science ",
+    desc: "I completed my class 10 education from SBN Public School, Nandgram, under the CBSE board, where I studied Science ",
     degree: "CBSE(X), Science with Computer Application",
   },
 ];
