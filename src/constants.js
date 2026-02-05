@@ -31,7 +31,7 @@ import javascript from "./assets/Tech_Logo/javascript.png";
 import materialui from "./assets/Tech_Logo/materialui.png";
 
 import cm from "./assets/Work_Logo/cm.png";
-import cs from "./assets/Work_Logo/cs_prep.png"
+import weather from "./assets/Work_Logo/weather.png";
 
 export const SKillInfo = [
   {
@@ -115,13 +115,13 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "CS Prep",
+    title: "Check Weather",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: cs,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+      "Check Weather is a responsive web application that provides real-time weather information for any city across the globe. Users can instantly view current temperature, weather conditions, humidity, wind speed, and location-based forecasts through a simple and intuitive interface. The app fetches live data from a weather API and presents it in a visually appealing UI, making it easy to track climate conditions while traveling or planning daily activities.",
+    image: weather,
+    tags: ["React JS", "Node.js", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/YAbhinavZ/Check_Weather",
+    webapp: "https://check-weather-ruddy.vercel.app/",
   },
   {
     id: 2,
