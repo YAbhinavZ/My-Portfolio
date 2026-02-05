@@ -1,13 +1,13 @@
 import "./App.css";
-import Navbar from "./Componenets/NavBar/NavBar";
-import Education from "./Componenets/Education/Education";
-import Skills from "./Componenets/Skills/Skills";
-import Footer from "./Componenets/Footer/Footer";
-import Contact from "./Componenets/Contact/Contact";
-import Work from "./Componenets/Work/Work";
+import Navbar from "./Components/NavBar/NavBar";
+import Education from "./Components/Education/Education";
+import Skills from "./Components/Skills/Skills";
+import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
+import Work from "./Components/Work/Work";
 import BlubBlur from "./BlubBlur";
 
-import About from "./Componenets/About/About";
+import About from "./Components/About/About";
 
 function App() {
   return (
@@ -18,11 +18,11 @@ function App() {
         <div className="relative  text-white pt-16 ">
           <Navbar />
           <About />
-           <Skills />
-         {/* <Work />
+          <Skills />
+          <Work />
           <Education />
           <Contact />
-          <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>
