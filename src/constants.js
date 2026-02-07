@@ -32,6 +32,7 @@ import materialui from "./assets/Tech_Logo/materialui.png";
 
 import Video from "./assets/Work_Logo/Video_Api.png"
 import weather from "./assets/Work_Logo/weather.png";
+import AIImage from "./assets/Work_Logo/AIImage.png"
 
 export const SKillInfo = [
   {
@@ -132,6 +133,17 @@ export const projects = [
     tags: ["Node.js", "Express", "MongoDB", "REST APIs", "Video Streaming", "File Handling"],
     github: "https://github.com/YAbhinavZ/video-streaming-backend",
   },
+  {
+    id: 3,
+    title: "AI Image Generator",
+    description:
+      "An intelligent image generation application powered by AI models that transforms text prompts into high-quality visual content. Features intuitive prompt engineering, multiple style options, and seamless image management for creative workflows.",
+    image: AIImage, // replace with your imported image variable
+    tags: ["React", "AI/ML", "Leonardo AI", "Image Generation", "REST APIs", "Tailwind CSS"],
+    github: "https://github.com/YAbhinavZ/ai-image-frontend",
+    webapp : "https://ai-image-frontend-phi.vercel.app/"
+  }
+
   
   
 ]
