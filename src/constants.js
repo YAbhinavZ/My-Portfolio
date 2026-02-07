@@ -30,7 +30,7 @@ import vscode from "./assets/Tech_Logo/vscode.png";
 import javascript from "./assets/Tech_Logo/javascript.png";
 import materialui from "./assets/Tech_Logo/materialui.png";
 
-import cm from "./assets/Work_Logo/cm.png";
+import Video from "./assets/Work_Logo/Video_Api.png"
 import weather from "./assets/Work_Logo/weather.png";
 
 export const SKillInfo = [
@@ -125,12 +125,14 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Coding Master",
+    title: "Video Streaming Backend API",
     description:
-      "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-    image: cm,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-    github: "https://codingmasterweb.in/",
-    webapp: "https://codingmasterweb.in/",
-  },]
+      "A scalable backend system for uploading and streaming video content efficiently using chunk-based delivery and RESTful APIs. Designed with modular architecture to handle large media files, optimize performance, and support future frontend integration.",
+    image: Video, // replace with your imported image variable
+    tags: ["Node.js", "Express", "MongoDB", "REST APIs", "Video Streaming", "File Handling"],
+    github: "https://github.com/YAbhinavZ/video-streaming-backend",
+  },
+  
+  
+]
   
