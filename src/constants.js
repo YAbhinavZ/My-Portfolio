@@ -116,14 +116,15 @@ export const education = [
 export const projects = [
   {
     id: 1,
-    title: "Check Weather",
+    title: "AI Image Generator",
     description:
-      "Check Weather is a responsive web application that provides real-time weather information for any city across the globe. Users can instantly view current temperature, weather conditions, humidity, wind speed, and location-based forecasts through a simple and intuitive interface. The app fetches live data from a weather API and presents it in a visually appealing UI, making it easy to track climate conditions while traveling or planning daily activities.",
-    image: weather,
-    tags: ["React JS", "Node.js", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/YAbhinavZ/Check_Weather",
-    webapp: "https://check-weather-ruddy.vercel.app/",
+      "An intelligent image generation application powered by AI models that transforms text prompts into high-quality visual content. Features intuitive prompt engineering, multiple style options, and seamless image management for creative workflows.",
+    image: AIImage, // replace with your imported image variable
+    tags: ["React", "AI/ML", "Leonardo AI", "Image Generation", "REST APIs", "Tailwind CSS"],
+    github: "https://github.com/YAbhinavZ/ai-image-frontend",
+    webapp : "https://ai-image-frontend-phi.vercel.app/"
   },
+  
   {
     id: 2,
     title: "Video Streaming Backend API",
@@ -135,14 +136,15 @@ export const projects = [
   },
   {
     id: 3,
-    title: "AI Image Generator",
+    title: "Check Weather",
     description:
-      "An intelligent image generation application powered by AI models that transforms text prompts into high-quality visual content. Features intuitive prompt engineering, multiple style options, and seamless image management for creative workflows.",
-    image: AIImage, // replace with your imported image variable
-    tags: ["React", "AI/ML", "Leonardo AI", "Image Generation", "REST APIs", "Tailwind CSS"],
-    github: "https://github.com/YAbhinavZ/ai-image-frontend",
-    webapp : "https://ai-image-frontend-phi.vercel.app/"
-  }
+      "Check Weather is a responsive web application that provides real-time weather information for any city across the globe. Users can instantly view current temperature, weather conditions, humidity, wind speed, and location-based forecasts through a simple and intuitive interface. The app fetches live data from a weather API and presents it in a visually appealing UI, making it easy to track climate conditions while traveling or planning daily activities.",
+    image: weather,
+    tags: ["React JS", "Node.js", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/YAbhinavZ/Check_Weather",
+    webapp: "https://check-weather-ruddy.vercel.app/",
+  },
+  
 
   
   
