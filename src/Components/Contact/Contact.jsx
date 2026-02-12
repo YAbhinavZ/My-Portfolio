@@ -5,7 +5,7 @@ function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-gradient-to-b from-gray-950 via-black to-black"
+      className="py-24 px-[12vw] md:px-[7vw] lg:px-[20vw] font-sans bg-linear-to-b from-gray-950 via-black to-black"
     >
       {/* Section Header */}
       <div className="text-center mb-12">
