@@ -41,7 +41,7 @@ function About() {
             engaging digital experiences.
           </p>
           <a
-            href="https://drive.google.com/file/d/1eRp8IqIs2SEJ3GVLqtDuYUOi8GOWvaq-/view"
+            href="https://drive.google.com/file/d/1UY3MKj_pKeXIuD1--7Kq8LCy_EL5uno8/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-black py-3 px-8 rounded-full mt-5 text-lg font-bold transition-all duration-300 transform hover:scale-105"
